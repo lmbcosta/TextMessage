@@ -36,8 +36,10 @@ func sendTextMessage(msgClient: String?, phoneNumber: String?) {
             + "key=" + clockworkAPIkey
             + "&to=" + phoneNumberTextMessage
             + "&content=" + textMessageClient
+        // Replace " " for "+"
+        // Example: http://www.your3favoritecodinglanguages.com/?names=python+swift+javascript
+        // and not  http://www.your3favoritecodinglanguages.com/?names=python swift javascript 
         urlString = urlString.stringByReplacingOccurrencesOfString(" ", withString: "+")
-        print(urlString)
         
         //NSURL
         if let clockworkSMSURL = NSURL(string: urlString),
