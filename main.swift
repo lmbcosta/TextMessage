@@ -12,7 +12,7 @@ import Foundation
 // Collecting textMessage and receiver phone number
 func collectData() -> (String?, String?) {
     // Message to send
-    print("write your text message")
+    print("Please, write your text message")
     let msgClient = readLine(stripNewline: true)
     
     // Collect the phone number
