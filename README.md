@@ -19,8 +19,8 @@ In terminal write the command:
 xcrun swift textMessage.swift
 
 Or create a .command file 
-#!/bin/sh
-xrun swift textMessage.swift
+//#!/bin/sh
+//xrun swift textMessage.swift
 
 There is a udemy course that teaches you how to create this application
 step by ste
