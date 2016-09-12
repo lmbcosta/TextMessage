@@ -6,7 +6,7 @@
 //  Created by Luis  Costa on 24/08/16.
 //  Copyright © 2016 Luis  Costa. All rights reserved.
 //
-
+// Teste teste
 import Foundation
 
 // Collecting textMessage and receiver phone number
